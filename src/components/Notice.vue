@@ -34,7 +34,6 @@
         </li>
       </ul>
     </div>
-    <div class="notice-testimony"  v-if="notice.testimony_time == ''">The public can offer testimony</span></div>
     <NoticeBody :id="notice.id" :body="notice.body" :drawers="notice.field_drawer" :column="column"></NoticeBody>
   </div>
 </template>
