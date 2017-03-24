@@ -10,7 +10,7 @@
         <div class="notice-date" v-html="notice.notice_date"></div>
         <div class="notice-time" v-html="notice.notice_time"></div>
       </div>
-      <div class="notice-datetime" v-else>
+      <div class="notice-datetime" v-if="notice.canceled === '1'">
         <div class="notice-canceled">Canceled</div>
       </div>
     </div>
