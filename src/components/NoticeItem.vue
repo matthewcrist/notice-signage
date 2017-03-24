@@ -4,7 +4,7 @@
       <div class="notice-column" v-if="active"><span>{{column}}</span></div>
       <div class="notice-info">
         <div class="notice-title notice-oneline" v-html="notice.title"></div>
-        <div class="notice-location">{{notice.location_street}}<span v-if="notice.location_room">, {{notice.location_room}}</span></div>
+        <div class="notice-location">{{notice.location_street}}<span v-if="notice.location_room">, <span v-html="notice.location_room"></span></span></div>
       </div>
       <div class="notice-datetime" v-if="notice.canceled !== '1'">
         <div class="notice-date" v-html="notice.notice_date"></div>
