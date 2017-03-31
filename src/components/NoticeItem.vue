@@ -1,5 +1,5 @@
 <template>
-  <li class="notice-item" v-bind:class="{ active: active }">
+  <li key="notice-{{ notice.id }}" class="notice-item" v-bind:class="{ active: active }">
     <div class="notice-item-container">
       <div class="notice-column" v-if="active"><span>{{column}}</span></div>
       <div class="notice-info">
