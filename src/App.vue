@@ -41,7 +41,6 @@ export default {
     return {
       time: null,
       clock: false,
-      initialized: false,
       notices: [],
       notice_counter: 0,
       one: 'column_one',
