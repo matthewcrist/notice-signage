@@ -18,7 +18,7 @@ export default {
 
   data () {
     return {
-      seconds: 2,
+      seconds: 58,
       seconds_left: 3,
       show_time: true,
       timeout: ''
